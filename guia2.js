@@ -1,12 +1,11 @@
 addEventListener("DOMContentLoaded", ()=>{
-//# el área y el volumen de un cilindro
-let h= 12
-let r= 18
-let pi= Math.PI
-let area= (2*(pi*r**2))+((2*pi*r)*h)
-let volumen=(pi*r**2)*h
-console.log(`el area del cilindro es:${area}`)
-console.log(`el volumen de un cilindro es:${volumen}`)
+   // racies reales de ecuacion de segundo grado
+let a= 12
+let b= 12
+let c= 18
+let x= 8
+let raiz=a*x**2+b*x*c
+console.log(`las raices de ecuancion de segundo grado es:${raiz}`)
 
 })
     
