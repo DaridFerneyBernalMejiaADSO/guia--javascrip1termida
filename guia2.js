@@ -1,12 +1,11 @@
 addEventListener("DOMContentLoaded", ()=>{
-   // Calcular el sueldo de un empleado dados comodatos de entrada: el nombre, hrs. De trabajo y el pago
-   // en hora. Pagohora=15300
-   //sueldo de un empleado
-   let htrabajo= Number(prompt(`ingrese las horas trabajadas`))
-   let phora=Number(prompt(`ingrese el precio por horas`))
-   let nombre=prompt(`ingrese el nombre`)
-   console.log(`el señor ${nombre}`)
-   console.log(`el sueldo del empleado es de =${htrabajo*phora}`)
+  // el promedio de las calificaciones obtenidas
+  let c1= Number(prompt(`ingrese la calificacion 1`))
+  let c2= Number(prompt(`ingrese la calificacion 2`))
+  let c3= Number(prompt(`ingrese la calificacion 3`))
+  let  promedio=(c1+c2+c3)/3
+  console.log(`el promdedio de sus calificaciones es de=${promedio}`)
+
  
 })
     
