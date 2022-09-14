@@ -1,11 +1,12 @@
 addEventListener("DOMContentLoaded", ()=>{
-   // Dado el valor que un cliente paga por un producto, calcular qué valor corresponde al costo total del
-   // producto y cuánto es el valor del IVA. Considerando que el porcentaje del IVA puede variar en el
-   // tiempo y de un producto a otro, este dato se lee por teclado.
-   // el prducto y el iva precio 
-   let productop=Number(prompt(`ingrese el precio del producto`))
-   iva=productop*0.20
-console.log(`el iva en el producto es de=${iva}`)
-console.log(`el valor total a pagar es de=${productop+iva}`)
+   // Calcular el sueldo de un empleado dados comodatos de entrada: el nombre, hrs. De trabajo y el pago
+   // en hora. Pagohora=15300
+   //sueldo de un empleado
+   let htrabajo= Number(prompt(`ingrese las horas trabajadas`))
+   let phora=Number(prompt(`ingrese el precio por horas`))
+   let nombre=prompt(`ingrese el nombre`)
+   console.log(`el señor ${nombre}`)
+   console.log(`el sueldo del empleado es de =${htrabajo*phora}`)
+ 
 })
     
