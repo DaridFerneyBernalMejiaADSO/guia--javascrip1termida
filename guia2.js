@@ -1,8 +1,8 @@
 addEventListener("DOMContentLoaded", ()=>{
-//la velocidad de un automóvil
- let kmh= Number(prompt(` ingrese los km por h`))
- let ms= Number(prompt(`ingrese m*s `))
- let velocidad=kmh/ms
- console.log(`la velocidad del automovil es${velocidad}`)
+//Una farmacia
+let preciop= Number(prompt(`precio del producto`))
+let descuento=preciop*0.10
+console.log(`el descuento del producto es ${descuento}`)
+console.log(`el valor a pagar es ${preciop-descuento}`)
 })
     
