@@ -1,11 +1,10 @@
 addEventListener("DOMContentLoaded", ()=>{
-   // racies reales de ecuacion de segundo grado
-let a= 12
-let b= 12
-let c= 18
-let x= 8
-let raiz=a*x**2+b*x*c
-console.log(`las raices de ecuancion de segundo grado es:${raiz}`)
-
+//volumen de un elipsoide
+let a=12
+let b=12
+let c=12
+let pi=Math.PI
+let volumen= (4/3) * pi * a * b *c
+console.log(`el volumen de un elipsoide es${volumen}`)
 })
     
