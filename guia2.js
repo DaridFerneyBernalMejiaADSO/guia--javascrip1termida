@@ -1,8 +1,9 @@
 addEventListener("DOMContentLoaded", ()=>{
-   // # volumen de una esfera
-   let radio = 3
-   let pi =Math.PI
-   let volesfera= 4/3*pi*radio**3
-   console.group(`el volumen de una esfera es ${volesfera}`)
+   //calculo de una expresion
+   let a=8
+   let b=12
+   let c=18
+   let rta=(a+7*c)/(b+2-a)+2*b 
+   console.log(`la respuesta es= ${rta}`)
 })
     
